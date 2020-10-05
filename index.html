@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/timesheet.min.css">
+    <title>Oleg Sidorkin - Timeshit</title>
+    <style>
+        .timesheet {
+            width: 100%;
+            height: 900px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="timesheet"></div>k
+
+    <script src="dist/timesheet.min.js"></script>
+    <script>
+        new Timesheet('timesheet', 2011, 2035, [
+            ['11/2011', '10/2014', 'Fujitsu GDC. Technical Services Engineer - Security, Support, Scripting', 'default'],
+            ['07/2012', '07/2017', 'IEML - Informational Safety bachelor red diploma', 'lorem'],
+            ['10/2014', '09/2017', 'I-novus - Senior Developer, then Head of frontend development, Leading, Training, Maintenance, Frameworks, Social Responcibilities', 'default'],
+            ['10/2017', '10/2020', 'EPAM - Senior Frontend Developer, Vue.js, Angular, React', 'default'],
+            ['10/2017', '10/2020', 'Mentoring, Assessment, Interviewing, Leading, Consulting, Compete', 'dolor'],
+            ['10/2017', '01/2018', 'Pre-production migration to vue.js of cosmetic shop with 14 FE', 'dolor'],
+            ['01/2018', '06/2018', 'International Bank, optimize performance and scalability', 'dolor'],
+            ['12/2018', '06/2019', 'Demo-driven development of bank products aggregator', 'dolor'],
+            ['12/2018', '10/2019', 'Establising TDD on intranet project', 'dolor'],
+            ['10/2019', '04/2020', 'Business Critical product refinement and leading', 'dolor'],
+            ['04/2020', '09/2020', 'Intranet product - canvas table and artifactory implemented', 'dolor'],
+            ['09/2020', '10/2020', 'GraphQL BFF', 'dolor'],
+            ['11/2019', '11/2020', 'House renovation', 'ipsum'],
+            ['07/2018', '10/2020', 'Working from Home', 'ipsum'],
+            ['10/2020', '10/2023', 'Bright New Future', 'default']
+        ]);
+
+    </script>
+</body>
+
+</html>
